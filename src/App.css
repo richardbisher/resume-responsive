@@ -1,0 +1,328 @@
+
+
+.container
+{
+  background-image: url(../src/images/bgshape.svg);
+  height: 100vh;
+  background-size: cover;
+  display:flex ;
+  background-repeat: no-repeat;
+  
+  
+}
+h4
+{
+  /* display: flex; */
+  /* flex-direction: column; */
+  color: #9E8C6C;
+  font-size: 18px;
+}
+
+.firstimage
+{
+  margin: 180px 125px 217px 165px;
+}
+.right_content
+{
+  margin-top: 180px;
+  margin-left: 165px;
+  font-size: 126px;
+  font-weight: 900;
+  width: 635px
+}
+.imagecircle
+{
+  margin-left: -249px;
+  margin-bottom: 184px;
+}
+
+
+.button_contact
+{
+  width:  225px;
+  height: 60px;
+  border: none;
+  color: white;
+  background-color: #0699A6;
+} 
+.left_heading
+{
+  font-size: xx-large;
+}
+.left_heading
+{
+  font-size: 18x;
+  font-weight: 700;
+  color: #9E8C6C;
+}
+.secondcontent
+{
+  margin: 90px 125px 80px 165px;
+
+}
+.left_content
+{
+  font-size: 20px;
+  font-weight: 400;
+  color: #000000;
+  margin-top: 10px;
+}
+.left_par
+{
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  margin-left: 41px;
+}
+.Leftcontentparagraphheading
+{
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: 10px;
+
+}
+.about_me
+{
+  margin-top: 83px;
+}
+.Leftcontentparagraph
+{
+  width: 350px;
+  font-size: 20px;
+  
+}
+.left_middle_par
+{
+  display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.linkblue
+{
+  font-size: 20px;
+  font-weight: 600px;
+  color:#0699A6;
+  display: flex;
+  text-decoration: none;
+  gap: 20px;
+  margin-top: 15px;
+}
+.right_heading
+{
+  font-size: 36px;
+  font-weight: 900;
+  color: black;
+}
+.second_content_container
+{
+  display: flex;
+  gap: 66px;
+  
+}
+.rightcontentparagraph
+{
+  width: 635px;
+  color:#000000;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.border_blue
+{
+  margin-top: 80px;
+  width: 71px;
+  height: 10px;
+  border: solid 1PX;
+  margin-left: 0;
+  background-color: #0699A6;
+}
+.right_container
+{
+  display: flex;
+  flex-direction: column;
+  gap: 66px;
+}
+.footer_backgroundimage
+{
+  
+  
+  background-image: url(../src/images/Path\ 2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+ justify-content: center;
+
+}
+.footer
+{
+  text-align: center;
+}
+.footer_heading
+{
+  font-size: 66px;
+
+}
+.footer_content
+{
+  text-decoration: none;
+  color: #0699A6;
+  font-size: 36px;
+}
+.icons
+{
+  display: flex;
+  justify-content: center;
+  gap: 46.92px ;
+  margin-top: 65.68px;
+}
+
+
+
+
+@media (max-width:768px){
+  .container
+  {
+    display: block;
+    
+
+  background-image: url(../src/images/Path\ 2\ Copy\ \(2\).svg);
+  height: 736px;
+  background-size: cover;
+  
+  background-repeat: no-repeat;
+  
+  
+
+  }
+  .right_content
+  {
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+        margin-top: -168px;
+  }
+  .firstimage
+  {
+    margin: 0;
+    width: 200px;
+    height: 200px;
+  }
+  {
+    margin: 180px 125px 217px 165px;
+  }
+  .second_content_container
+  {
+    flex-direction: column-reverse;
+      
+  }
+  .right_container
+  {
+    align-items: center;
+    margin-left: 66px;
+  }
+  .profile
+  {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  .imagecircle
+  {
+    margin-left: -99px;
+    margin-bottom: 150px;
+    width: 105px;
+    margin-top: 24px;
+  }
+  .right_content
+  {
+    
+    margin-top: -61px;
+    display: flex;
+    flex-direction: column;
+  }
+  .button_contact
+  {
+    margin-top: 40px;
+  }
+  .first_heading
+  {
+    font-size: 86px;
+        margin-left: 144px;
+        
+        width: 482px;
+        margin-top: -44px;
+        font-weight: 900;
+  }
+  .button_contact
+  {
+    margin-left: 9px;
+  }
+  .left_par
+  {
+    /* margin-left: -90px; */
+  }
+ 
+}
+
+
+
+@media (max-width:375px){
+
+
+  .container
+  {
+    display: block;
+    
+
+  background-image: url(../src/images/mobile_view_bg\ \(1\).svg);
+  height: 596px;
+  background-size: cover;
+  
+  background-repeat: no-repeat;
+  
+  
+
+  }
+  
+  .first_heading
+  {
+        font-size: 46px;
+        width: 346px;
+        margin-left: 0;
+        margin-top: -20px;
+  }
+  .button_contact {
+    margin-left: 11px;
+
+  }
+
+  .right_container
+  {
+    
+    margin: 0 22px;
+    margin-right: -32px;
+  
+  }
+
+  .rightcontentparagraph {
+    width: 335px;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+  }
+  .secondcontent {
+    margin-left: 6px;
+
+  }
+.footer_content
+{
+  font-size: 26px;
+}
+}
+
+
+
