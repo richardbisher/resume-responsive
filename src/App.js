@@ -222,7 +222,7 @@ function Header(){
                <img src={linkedin}></img>
                <img src={twit}></img>
 
-               
+               <h1>richard</h1>
                </div>
                </div>
 
